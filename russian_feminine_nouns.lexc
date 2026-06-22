@@ -1,0 +1,73 @@
+Multichar_Symbols
+        +N
+        +Sg
+        +Pl
+        +Nom
+        +Gen
+        +Dat
+        +Acc
+        +Ins
+        +Prep
+
+LEXICON Root
+        Nouns ;
+
+LEXICON Nouns
+берёза   NHardA ;
+книга    NHardA ;
+башня    NSoftJa ;
+вишня    NSoftJa ;
+кухня    NKitchen ;
+
+LEXICON NHardA
++N:^   HardA ;
+
+LEXICON NSoftJa
++N:^   SoftJa ;
+
+LEXICON NKitchen
++N:^   KitchenJa ;
+
+LEXICON HardA
++Sg+Nom:а    # ;
++Sg+Gen:ы    # ;
++Sg+Dat:е    # ;
++Sg+Acc:у    # ;
++Sg+Ins:ой   # ;
++Sg+Prep:е   # ;
++Pl+Nom:ы    # ;
++Pl+Gen:Z    # ;
++Pl+Dat:ам   # ;
++Pl+Acc:ы    # ;
++Pl+Ins:ами  # ;
++Pl+Prep:ах  # ;
+
+LEXICON SoftJa
++Sg+Nom:я    # ;
++Sg+Gen:и    # ;
++Sg+Dat:е    # ;
++Sg+Acc:ю    # ;
++Sg+Ins:ей   # ;
++Sg+Prep:е   # ;
++Pl+Nom:и    # ;
++Pl+Gen:F    # ;
++Pl+Dat:ям   # ;
++Pl+Acc:и    # ;
++Pl+Ins:ями  # ;
++Pl+Prep:ях  # ;
+
+LEXICON KitchenJa
++Sg+Nom:я    # ;
++Sg+Gen:и    # ;
++Sg+Dat:е    # ;
++Sg+Acc:ю    # ;
++Sg+Ins:ей   # ;
++Sg+Prep:е   # ;
++Pl+Nom:и    # ;
++Pl+Gen:ьK   # ;
++Pl+Dat:ям   # ;
++Pl+Acc:и    # ;
++Pl+Ins:ями  # ;
++Pl+Prep:ях  # ;
+
+END
